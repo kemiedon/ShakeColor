@@ -16,6 +16,7 @@ public class ChangeImgActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_change_img);
         my_pic = findViewById(R.id.myPic);
+
         btn_back = findViewById(R.id.btnBack);
         btn_back.setOnClickListener(new View.OnClickListener() {
             @Override
