@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         square = findViewById(R.id.square);
         btn_change = findViewById(R.id.btnChange);
-        Toast.makeText(this,"app正在執行中",Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(this, ShakeService.class);
 
         //Start Service
